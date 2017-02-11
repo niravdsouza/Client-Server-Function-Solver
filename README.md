@@ -9,8 +9,10 @@ The task is to create a grid computing server-client architecture where a client
 For example, say there are 3 servers implementing the following functions:
 Server A
 f(x) = x^2
+
 Server B
 f(x) = 10x
+
 Server C
 f(x) = x + 20
 
@@ -30,9 +32,13 @@ with the value of x as 5 this will be
 
 For the problem, the following 5 servers with the specific computation of f(x) are to be implemented
 A(x) = x^2
+
 B(x) = 10x
+
 C(x) = x+20
-D(x) = log10 x
+
+D(x) = log10(x)
+
 E(x) = sqrt(x)
 
 
