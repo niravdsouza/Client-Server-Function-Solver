@@ -29,20 +29,25 @@ with the value of x as 5 this will be
 
 
 For the problem, the following 5 servers with the specific computation of f(x) are to be implemented
-A(x) x^2
-B(x) 10x
-C(x) x+20
-D(x) log10 x
-E(x) sqrt(x)
+A(x) = x^2
+B(x) = 10x
+C(x) = x+20
+D(x) = log10 x
+E(x) = sqrt(x)
 
 
 The client should be able to parse and calculate the result for the following example computational sequences:
 x = 100
 A(x) + B(x) + C(x)
+
 (B(x) * C(x)) + (D(x) * E(x))
+
 A( C(x) * E(x) )
+
 E( B( A(x) ) )
+
 D( A( E(x) + D(x) ) )
+
 
 
 Given these inputs, each server should be able to:
